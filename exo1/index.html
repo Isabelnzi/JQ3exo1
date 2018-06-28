@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-3.2.1.js"></script>
+    <title>Exercice1</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" name="text" id="text" />
+      <button type="button" id="button">cliquez</button>
+    </form>
+    <script>
+    $(document).ready(function(){
+      var number = 0;
+    $('#button').click(function(){
+        number ++;
+    $('#text').val(number);
+      });
+       });
+    </script>
+  </body>
+</html>
